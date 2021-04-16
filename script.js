@@ -19,6 +19,8 @@ function hide() {
 
     // Recommended from the video
     document.getElementById('secondary').style.display = 'none';
+    // hide sometimes not working ??
+    document.getElementById('secondary').remove();
 
 
     requestAnimationFrame(hide);
