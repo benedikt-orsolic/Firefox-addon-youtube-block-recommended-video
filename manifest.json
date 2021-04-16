@@ -1,0 +1,16 @@
+{
+
+    "manifest_version": 2,
+    "name": "",
+    "version": "1.0",
+  
+    "description": "",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["home.js"]
+      }
+    ]
+  
+  }
